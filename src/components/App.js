@@ -4,15 +4,15 @@ const App = () => {
 
   const handleInput = (event) =>{
    // use console.log
-    const str=event.target.value;
-    console.log(str);
+const str=event.target.value;
+console.log(str);
   }
 
   // do not change id of input elements
   return (
     <div id="main">
       <label htmlFor='text-input'>Text Input:- </label>
-      <input id="text-input" type={'text'} onChange={handleInput} />
+      <input id="text-input" type={'text'}onChange={handleInput} />
 
       <br/>
       <br/>
